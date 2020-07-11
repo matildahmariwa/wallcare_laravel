@@ -65,7 +65,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
         <!-- end of top nav -->
             <nav class="navbar  navbar-expand-lg navbar-light">
                     <div class="container sticky" >
-                        <a class="navbar-brand" href="index.html"> 
+                        <a class="navbar-brand" href="{{route('/home')}}">
                             <img src="images/logo.png" alt="wallcare" class="logo">
                           </a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

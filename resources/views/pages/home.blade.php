@@ -71,7 +71,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
   <div class="main">
   <nav class="navbar  navbar-expand-lg navbar-light">
       <div class="container sticky">
-        <a class="navbar-brand" href="index.html"> 
+        <a class="navbar-brand" href="{{route('/home')}}"> 
               <img src="images/logo.png" alt="wallcare" class="logo">
             </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,8 +107,8 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
               <h3 class="beautiful">BEAUTIFUL FINISHES</h3>
               <p>Simplicity is at the heart of our design,we make</br> complex things look and feel simple </p>
              <div class="welcome-btn">
-               <button class="about-btn">Services</button>
-              <button class="work-btn">Portfolio</button></div>
+               <button type="button" onclick="window.location='{{ route("services") }}'" class="about-btn">Services</button>
+              <button onclick="window.location='{{ route("portfolio") }}'" class="work-btn">Portfolio</button></div>
                 
          </div>
         
@@ -182,8 +182,8 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
       <div class="container" id="portfolio-container">
 <div class="portfolio">
  <div class="portfolio-nav"> 
-   <a class="portfolio-title">Latest Projects</a> 
-   <a href="{{route('portfolio')}}" id="all-btn">View All projects</a>  |
+   <a class="portfolio-title">Latest Projects</a> |
+   <a href="{{route('portfolio')}}" id="all-btn">View All projects</a>  
    {{-- <a id="all-btn" href="portfolio.html">View All projects</a> --}}
  </div>
     <div class="grid-x projects">
