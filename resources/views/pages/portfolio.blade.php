@@ -29,7 +29,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script
     crossorigin="anonymous"
-    src="https://kit.fontawesome.com/7f19f7dd61.js"></script>   
+    src="https://kit.fontawesome.com/7f19f7dd61.js"></script>  
+    <script src="https://unpkg.com/isotope-layout@3.0.3/dist/isotope.pkgd.js"></script>
+ 
     <!--Css styling  -->
     <link href="css/main.css" rel="stylesheet"/>
         <script
@@ -81,58 +83,35 @@
                 </div>
                 </div>
               <!-- end of intro -->
-              <div class="grid-x ">
-                <div class="cell large-12 ">
-
-                </div>
+              <div>
+              <div>
+                  <section id="portfolio" class="bg-light-gray">
+                      <div class="gallary animate-grid">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-lg-12 text-center">
+                                      <h2 class="section-heading">Portfolio</h2>
+                                      <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                                  </div>
+                              </div>
+                                  <div class="row">
+                                  <div class="col-xs-12">
+                                      <div class="categories">
+                                          <ul>
+                                              <li>
+                                                  <ol>
+                                                      <li><a href="#" data-filter="*" class="active">All</a></li>
+                                                      <li><a href="#" data-filter=".architecture">Architecture</a></li>
+                                                      <li><a href="#" data-filter=".fashion">Fashion</a></li>
+                                                      <li><a href="#" data-filter=".land">Landscape</a></li>
+                                                      <li><a href="#" data-filter=".food">Food</a></li>
+                                                  </ol>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
               </div>
-              <div class="buttons">
-                  <a id="showall">All</a>
-                  <a class="showSingle" target="1">Interior</a>
-                  <a class="showSingle" target="2">Roofing & Waterproofing</a>
-                  <a class="showSingle" target="3">Design & Build</a>
-                  
-                </div>
-                
-                <div id="div1" class="grid-x targetDiv port-interior">
-                 <div class="cell large-3 medium-3 small-12">
-                 <img src="images/interior.jpg" alt="">
-                 </div>
-                 <div class="cell large-3 medium-3 small-12">
-                  <img src="images/school.jpg" alt="">
-                  </div>
-                  <div class="cell large-3 medium-3 small-12">
-                    <img src="images/flat_roof.jpg" alt="">
-                    </div>
-                    <div class="cell large-3 medium-3 small-12">
-                      <img src="images/service_design.jpg" alt="">
-                      </div>
-                </div> 
-                <!-- end of first line -->
-                <div id="div1" class="grid-x targetDiv port-interior">
-                  
-                  
-                     <div class="cell large-3 medium-3 small-12">
-                       <img src="images/service_design.jpg" alt="">
-                       </div>
-                       <div class="cell large-3 medium-3 small-12">
-                        <img src="images/interior.jpg" alt="">
-                        </div>
-                 </div> 
-                 <!-- end of second -->
-                <div id="div2" class="grid-x targetDiv port-roofing">
-                  <div class="cell large-3 medium-3 small-12">
-                    <img src="images/roofing.jpg" alt="">
-                  </div>
-                </div>
-                
-                <div id="div3" class="grid-x targetDiv design">
-                  <div class="cell large-3 small-12 medium-3">
-                    <img src="images/design.jpg" alt="">
-                  </div>
-                </div>
-               
-           
               <div class="grid-x social">
                   <div class="cell large-12 small-12">
                    <ul>
@@ -161,5 +140,23 @@
                 });
                       
                 </script> 
+                <script>
+    $(window).load(function() {
+    var $container = $('.animate-grid .gallary-thumbs');
+    $container.isotope({
+        filter: '*',
+        transitionDuration: '0.6s',
+    });
+    $('.animate-grid .categories a').click(function() {
+        $('.animate-grid .categories .active').removeClass('active');
+        $(this).addClass('active');
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector
+        });
+        return false;
+    });
+});
+                </script>
   </body>
 </html>
