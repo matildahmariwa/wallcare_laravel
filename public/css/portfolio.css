@@ -1,0 +1,47 @@
+/* new */
+.wrapper{
+    width: 100%;
+   
+  }
+  .container{
+    max-width: 1170px;
+    margin:0 auto;
+    /* margin-top:20px; */
+  }
+  .header{
+    width: 100%;
+  /* float: left; */
+    display: inline-block;
+    height: 70px;
+  }
+  .menu{
+    float:right;
+  }
+  .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 25px 20px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:bold;
+    color: #34495e;
+  }
+  .content{
+    width:100%;
+    display: inline-block;
+   padding: 50px 0;
+  }
+  .cardii{
+    display:inline-block;
+    width: 31%;
+    margin:0 1% 55px;
+    top:25px;
+    
+  }
+  .cardii img{
+    width: 100%;
+  }
