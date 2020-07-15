@@ -397,22 +397,8 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
  <a href="https://api.whatsapp.com/send?phone=254728127290&text=Hi%20Wallcare%20contractors" class="float" target="_blank"><i class="fab fa-whatsapp"></i> Text us on Whatsapp!</a>
  </div><!--end of body-->
   </div> <!-- end of main -->
-  <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      var wallcare = {lat: 1.1179, lng: 37.0090};
-      // The map, centered at Uluru
-      var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 4, center: wallcare});
-      // The marker, positioned at Uluru
-      var marker = new google.maps.Marker({position: wallcare, map: map});
-    }
-        </script>
-       
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFDwP1v9neh0k3aiiZ1yvoAFMIk7Id12c&callback=initMap"
-        async defer>
-        </script> 
+  
+        
         <script>
           window.sr=ScrollReveal();
 sr.reveal('.animate-right',{
