@@ -40,8 +40,23 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   
 </head>
+<style>
+  
+    .text-center:after {
+      content: " ";
+      display: block;
+      border: 2px solid #00afef;
+      width: 93px;
+      /* margin-top: 20px; */
+      margin-right: auto;
+      margin-bottom: -65px;
+      margin-left: auto;
+    }
+    .text-center{
+      font-size: 31px;
+    }
 <body>
-    <body>
+    
         <div class="grid-x top-nav">
           <div class="cell large-3 medium-3 small-12 comm-item">
               <i class="fas fa-envelope"></i> <span class="comm-info">wallcarecontractors@gmail.com</span> 

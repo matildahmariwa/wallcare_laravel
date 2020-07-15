@@ -46,8 +46,25 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
+<style>
+  
+.text-center:after {
+  content: " ";
+  display: block;
+  border: 2px solid #00afef;
+  width: 93px;
+  /* margin-top: 20px; */
+  margin-right: auto;
+  margin-bottom: -65px;
+  margin-left: auto;
+}
+.text-center{
+  font-size: 31px;
+}
+</style>
 <body>
-    
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="rhxxAMkD"></script>
     <div class="grid-x top-nav">
         <div class="cell large-3 medium-3 small-12 comm-item">
             <i class="fas fa-envelope"></i> <span class="comm-info">wallcarecontractors@gmail.com</span> 
@@ -350,8 +367,9 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
 </div>
 <!-- end of quick links -->
 <div class="cell large-3 medium-3 small-12 footer_item animate-top">
-  <h3>Location</h3>
-  <div id="map"></div>
+  <h3>Facebook</h3>
+ <div id="fb-root"></div>
+ <div class="fb-page" data-href="https://www.facebook.com/wallcareltd/" data-tabs="timeline" data-width="" data-height="350px" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/wallcareltd/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/wallcareltd/">WallCare Contractors Ltd</a></blockquote></div>
   </div>
 
 </div> 
