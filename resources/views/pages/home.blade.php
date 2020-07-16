@@ -124,7 +124,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
               <h3 class="beautiful">BEAUTIFUL FINISHES</h3>
               <p>Simplicity is at the heart of our design,we make</br> complex things look and feel simple </p>
              <div class="welcome-btn">
-               <button type="button" onclick="window.location='{{ route("services") }}'" class="about-btn">Services</button>
+               <button  onclick="window.location='{{ route("services") }}'" class="about-btn">Services</button>
               <button onclick="window.location='{{ route("portfolio") }}'" class="work-btn">Portfolio</button></div>
                 
          </div>

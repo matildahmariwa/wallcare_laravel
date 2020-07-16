@@ -98,10 +98,10 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                             <a class="nav-link" href="#">About Us</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link"href="{{route('/services')}}">Services</a>
+                            <a class="nav-link"href="{{route('services')}}">Services</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="{{route('/portfolio')}}">Portfolio</a>
+                              <a class="nav-link" href="{{route('portfolio')}}">Portfolio</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
