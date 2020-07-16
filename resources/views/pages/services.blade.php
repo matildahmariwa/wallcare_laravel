@@ -55,6 +55,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
     .text-center{
       font-size: 31px;
     }
+    </style>
 <body>
     
         <div class="grid-x top-nav">
@@ -89,7 +90,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                       <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto" >
                           <li class="nav-item active" >
-                            <a class="nav-link" href="index.html">Home
+                            <a class="nav-link" href="{{route('/home')}}">Home
                                   <span class="sr-only">(current)</span>
                                 </a>
                           </li>
@@ -97,10 +98,10 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                             <a class="nav-link" href="#">About Us</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
+                            <a class="nav-link"href="{{route('/services')}}">Services</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                              <a class="nav-link" href="{{route('/portfolio')}}">Portfolio</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -114,7 +115,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
               <h1>
                 OUR SERVICES
               </h1> 
-             <span><a href="index.html">Home</a> | Services </span> 
+             <span><a href="{{route('/home')}}">Home</a> | Services </span> 
             </div>
             </div>
                 <div class="container" id="design">

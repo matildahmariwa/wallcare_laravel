@@ -130,5 +130,12 @@ margin-bottom: 20px;
 
 }
 
-
-
+@media (max-width: 767px) {
+    .filter span{
+      display:block;
+      float:left;
+    }
+   .filter{
+       height:50px;
+   }
+  }

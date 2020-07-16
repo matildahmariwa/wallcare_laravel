@@ -99,7 +99,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                       <h1>
                         OUR PORTFOLIO
                       </h1> 
-                     <span><a href="index.html">Home</a> | PORTFOLIO </span> 
+                     <span><a href="{{route('/home')}}">Home</a> | PORTFOLIO </span> 
                     </div>
                     </div>
                   <!-- end of intro -->
@@ -108,15 +108,13 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
             <div class="container-fluid">
                <br><br>
                 <div class="row">
-                   
-
                     <!-- filter links -->
                     <div class="filtering text-center mb-30 col-sm-12">
                         <div class="filter">
                             <span data-filter='*' class="active">All</span>
                             <span data-filter='.interior'>Interior</span>
                             <span data-filter='.designi'>Design</span>
-                            <span data-filter='.roofing'>Roofing</span>
+                            <span data-filter='.roofing'>Roofing & Waterproofing</span>
                             <span data-filter='.renovation'>Renovation</span>
                             <span data-filter='.commercial'>Commercial</span>
                            
@@ -241,9 +239,218 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                         </div>
 
                         <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding designi">
+                            <div class="item-img">
+                              <img src="images/design2.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p></p>
+                                        <h3></h3>
+                                        <a href="p2.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding designi">
+                            <div class="item-img">
+                              <img src="images/design3.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p></p>
+                                        <h3></h3>
+                                        <a href="p2.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding designi">
+                            <div class="item-img">
+                              <img src="images/design4.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p></p>
+                                        <h3></h3>
+                                        <a href="p2.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding designi">
+                            <div class="item-img">
+                              <img src="images/design5.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p></p>
+                                        <h3></h3>
+                                        <a href="p2.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding designi">
+                            <div class="item-img">
+                              <img src="images/design6.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p></p>
+                                        <h3></h3>
+                                        <a href="p2.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding designi">
+                            <div class="item-img">
+                              <img src="images/design7.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p></p>
+                                        <h3></h3>
+                                        <a href="p2.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
                         <div class="col-lg-4 col-md-6 items no-padding roofing">
                             <div class="item-img">
-                              <img src="images/render.jpg" alt="image" class="img-responsive">
+                              <img src="images/roofing1.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing2.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing3.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing4.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing6.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing7.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing8.jpg" alt="image" class="img-responsive">
+                                <div class="item-img-overlay">
+                                    {{-- <div class="overlay-info full-width">
+                                        <p>Logo | Branding</p>
+                                        <h3>Creative Design</h3>
+                                        <a href="p3.jpg" class="popimg">
+                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
+                                        </a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items no-padding roofing">
+                            <div class="item-img">
+                              <img src="images/roofing9.jpg" alt="image" class="img-responsive">
                                 <div class="item-img-overlay">
                                     {{-- <div class="overlay-info full-width">
                                         <p>Logo | Branding</p>
@@ -275,7 +482,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                         <!-- gallery item -->
                         <div class="col-lg-4 col-md-6 items no-padding designi">
                             <div class="item-img">
-                              <img src="images/interior.jpg" alt="image" class="img-responsive">
+                              <img src="images/design1.jpg" alt="image" class="img-responsive">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
                                         <p></p>
@@ -339,7 +546,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                         <!-- gallery item -->
                         <div class="col-lg-4 col-md-6 items no-padding roofing">
                             <div class="item-img">
-                              <img src="images/interior.jpg" alt="image" class="img-responsive">
+                              <img src="images/roofing.jpg" alt="image" class="img-responsive">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
                                         <p></p>
