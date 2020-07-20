@@ -7,37 +7,39 @@
     <title>Services</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
       
-    <!-- Foundation -->
-    <script src="js2/js/vendor/jquery.js"></script>
-    <script src="js2/js/vendor/what-input.js"></script>
-    <script src="js2/js/vendor/foundation.js"></script>
-    <script src="js2/js/app.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
-    <link href="js2/css/foundation.css" rel="stylesheet" type="text/css" />
-    <link href="js2/css/app.css" rel="stylesheet" type="text/css" />
-
-    <!-- bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-<script
-crossorigin="anonymous"
-src="https://kit.fontawesome.com/7f19f7dd61.js"></script>   
-<!--Css styling  -->
-<link href="css/main.css" rel="stylesheet"/>
-    <script
-      crossorigin="anonymous"
-      src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
-
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+     <!-- Foundation -->
+     <script src="js2/js/vendor/jquery.js"></script>
+     <script src="js2/js/vendor/what-input.js"></script>
+     <script src="js2/js/vendor/foundation.js"></script>
+     <script src="js2/js/app.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+       rel="stylesheet">
+ 
+     <link href="js2/css/foundation.css" rel="stylesheet" type="text/css" />
+     <link href="js2/css/app.css" rel="stylesheet" type="text/css" />
+ 
+     <!-- bootstrap -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+ <script
+ crossorigin="anonymous"
+ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>   
+ <!--Css styling  -->
+ <link href="css/main.css" rel="stylesheet"/>
+     <script
+       crossorigin="anonymous"
+       src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
+ 
+       <!-- javascript -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+       <!-- Fonts -->
+       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   
 </head>
 <style>
@@ -172,13 +174,14 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                 </div>
                 <!-- end of design -->
                 <div class="container">
-                <div class="grid-x service-finishes">
+                <div class="grid-x service-finishes" id="service-finishes">
                  <div  class="cell large-12 medium-12 small-12">
                     <span class="service-head">Interior Finishes</span>
                     <p class="animate-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen book.</p>
                  </div>
+                 {{-- <img src="images/sketch.jpg" alt=""> --}}
                 </div>
-                <div class="grid-x finishes-list">
+                <div class="grid-x finishes-list "  >
                   <div  class="cell large-4 medium-4 small-4 animate-bottom">
                     <ul class="animate-bottom">
                       <li> <i class="fas fa-plus"></i>Gypsum Ceiling</li>

@@ -634,6 +634,13 @@ form p{
     padding: 38px;
     line-height: 1.6rem;
 }
+#service-finishes{
+  background-image:url(https://static1.squarespace.com/static/506f05c0e4b0400133c98bc1/599daa4df14aa1467634e732/599dabac6a49630a7fbffa45/1503505342535/img001_edit.jpg?format=1500w);
+  background-repeat:no-repeat;
+  background-position:10px 200px;
+  /* background-color: #25aae1; */
+
+}
 .service-finishes p{
   margin-top:23px;
 }
@@ -891,6 +898,9 @@ services-intro a{
   }
   .step-info{
     margin-left: -15px;
+  }
+  .fb-page{
+    margin-left: -58px
   }
   form{
     margin-left: -2px;

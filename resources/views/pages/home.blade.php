@@ -113,6 +113,9 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
             <li class="nav-item">
               <a class="nav-link" href="#contact-section">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Blog</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -254,7 +257,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
           <div class="cell large-6 medium-6 small-12 step3">
               <div class="step-info">
               <i class="fas fa-check-square"></i> <br>
-               <p>A quotation is drafted of which when approved by the client a work schedule is agreed upon by both parties </p>
+               <p>A bill of quantities & quotation is drafted of which when approved by the client a work schedule is agreed upon by both parties </p>
               </div> <!-- end of step info -->
             </div>
             <div class="cell large-6 medium-6 small-12 step4">
@@ -389,7 +392,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
  </div>
  <div class="grid-x by">
 <div class="cell large-6 small-12 medium-6">
-<span class="copyright">Copyright  &#169; <?php echo date("Y"); ?>,Wallcare Contractors.All Rights Reserved</span>
+<span class="copyright">&#169; <?php echo date("Y"); ?>,Wallcare Contractors.All Rights Reserved</span>
 </div>
 <div class="cell large-6 small-12 medium-6"><span class="developer">Website development by <a href="https://www.linkedin.com/in/matildah-mariwa-42525314b/">Matildah Mariwa</a></span></div>
 
