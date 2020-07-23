@@ -139,8 +139,8 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
       <div class="grid-x container about ">
         <div class="cell large-6 medium-6 small-12 info  animate-left" id="about-section"> 
        <span class="abt-title">ABOUT US</span> <br>
-       <span class="headline">We deliver high quality design  and </br> building services</span>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+       <span class="headline">We deliver high quality design  and  building services </br> in the market</span>
+       <p>Wallcare is a building services contractor  based in Kenya.We have a vast experience in architecture design and build,interior design,renovation works and roofing services. <br>  We are with you from the concept to design and bring in our very able workmanship to deliver high quality build services  to ensure your ultimate satisfaction within set time and budget.</p>
       </div>
 
        <div class="cell large-6 medium-6 small-12 about-pic animate-right"> 

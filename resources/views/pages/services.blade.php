@@ -174,7 +174,7 @@
                 </div>
                 <!-- end of design -->
                 <div class="container">
-                <div class="grid-x service-finishes" id="service-finishes">
+                <div class="grid-x service-finishes">
                  <div  class="cell large-12 medium-12 small-12">
                     <span class="service-head">Interior Finishes</span>
                     <p class="animate-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen book.</p>
@@ -207,7 +207,7 @@
                  <span>R</span>oofing  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
                  </p>
                  <p style="margin-top:31px">
-                  <span >A</span>PP WaterProofing  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                  <span >A</span>PP membrane,short for Atactic Polypropylene Membrane, is manufactured from Bitumen and comes in rolls of 10 metres length by 1 metre width and covers an area of 8.7 m². APP membrane is an efficient and durable waterproofing material used on flat concrete roofs,concrete gutters,basements and retaining walls
                   </p>
                  
                  </div>

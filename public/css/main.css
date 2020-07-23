@@ -23,6 +23,9 @@ body {
   height: 69px;
   width: 229px;
 }
+.nav-link{
+  margin-right: 6px;
+}
 
 .nav-link:hover {
   color: blue !important;
@@ -630,6 +633,7 @@ form p{
     margin-bottom: 251px;
     color: white;
     height: 267px; 
+    width: 100%;
     margin-top: 69px;
     padding: 38px;
     line-height: 1.6rem;
