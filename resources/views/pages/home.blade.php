@@ -140,7 +140,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
         <div class="cell large-6 medium-6 small-12 info  animate-left" id="about-section"> 
        <span class="abt-title">ABOUT US</span> <br>
        <span class="headline">We deliver high quality design  and  building services </br> in the market</span>
-       <p>Wallcare is a building services contractor  based in Kenya.We have a vast experience in architecture design and build,interior design,renovation works and roofing services. <br>  We are with you from the concept to design and bring in our very able workmanship to deliver high quality build services  to ensure your ultimate satisfaction within set time and budget.</p>
+       <p>Wallcare is a registered building services contractor  based in Kenya.We have a vast experience in architecture design and build,interior design,renovation works and roofing services. <br>  We are with you from the concept to design and bring in our very able workmanship to deliver high quality build services  to ensure your ultimate satisfaction within set time and budget.</p>
       </div>
 
        <div class="cell large-6 medium-6 small-12 about-pic animate-right"> 
@@ -339,7 +339,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
 <div class="cell large-3 medium-3 small-12 footer_about footer_item animate-top " >
 <h3>About us</h3>
 <p>
-    Wallcare Contracters provides extraordinary and unique solutions to your interior and exterior spaces. We aim to build strong relationships with our clients through our outstanding designs and ideas.
+    Wallcare Contracters works as a team of creative architects, interior designers and construction managers, to translate your vision to visuals that evoke emotions and inspire action.
 </p>
  
 </div>
