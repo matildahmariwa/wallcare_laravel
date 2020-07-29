@@ -157,15 +157,15 @@
                     <div class="gg">
                     <div class="process_info">
                         <h5><span class="number">1</span> Architectural & structural designs</h5> <br>
-                        <p class="process_info">We are a residential interior design firm located in <br>Portland. Our boutique studio offers more than</p>
+                        <p class="process_info">Our team of architects come up with high quality architecture designs that are <br> market standard to suit your needs.With the design <br> one gets a master layout,3D renders and a video walkthrough.</p>
                     </div>
                     <div class="process_info">
                         <h5><span class="number">2</span> Quantity Survey</h5> <br>
-                        <p class="process_info">We are a residential interior design firm located in <br>Portland. Our boutique studio offers more than</p>
+                        <p class="process_info">A survey of the site is done.The construction managers come up <br> with the bill of quantities  which shows the estimate amount that will be used <br> during the construction</p>
                     </div>
                     <div class="process_info">
                         <h5><span class="number">3</span> Construction Phase</h5> <br>
-                        <p class="process_info">We are a residential interior design firm located in <br>Portland. Our boutique studio offers more than</p>
+                        <p class="process_info">Our construction is led by highly qualified construction managers who <br> deliver market standard buildings .We come up with a work program that will be <br> followed during the construction so as to deliver high quality work in the <br> intended time</p>
                     </div>
                     </div>
                     </div>
@@ -177,7 +177,7 @@
                 <div class="grid-x service-finishes">
                  <div  class="cell large-12 medium-12 small-12">
                     <span class="service-head">Interior Finishes</span>
-                    <p class="animate-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen book.</p>
+                    <p class="animate-left"> With a thorough understanding of the clients needs  we transform  <br> your interior space idea into reality.Our team of talented interior designers <br> is always updated with the current interior  design trends through our continous research. <br> A good interior design has an impact on productivity  and comfortability <br> of a person.</p>
                  </div>
                  {{-- <img src="images/sketch.jpg" alt=""> --}}
                 </div>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="cell large-6 medium-6 small-12 roof-serve_info">
                  <p>
-                 <span>R</span>oofing  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                 <span>O</span>ur roofing  products include range from
                  </p>
                  <p style="margin-top:31px">
                   <span >A</span>PP membrane,short for Atactic Polypropylene Membrane, is manufactured from Bitumen and comes in rolls of 10 metres length by 1 metre width and covers an area of 8.7 m². APP membrane is an efficient and durable waterproofing material used on flat concrete roofs,concrete gutters,basements and retaining walls
