@@ -204,10 +204,10 @@
                 </div>
                 <div class="cell large-6 medium-6 small-12 roof-serve_info">
                  <p>
-                 <span>O</span>ur roofing  products include range from
+                 <span>W</span>e  provide the best roofing solutions for property owners in Kenya, from installation of an entire new roof or repair works such as leaked roofs or blocked gutters.  <br> Wallcare contacters work hard to provide the best services in the market. Our attention to key details of every roof needs guarantee you of a beautiful leak free roof.   <br> Our roofing charges are also pocket friendly which usually vary based on the material chosen,height and the total square footage
                  </p>
                  <p style="margin-top:31px">
-                  <span >A</span>PP membrane,short for Atactic Polypropylene Membrane, is manufactured from Bitumen and comes in rolls of 10 metres length by 1 metre width and covers an area of 8.7 m². APP membrane is an efficient and durable waterproofing material used on flat concrete roofs,concrete gutters,basements and retaining walls
+                  <span >W</span>aterproofing a building is important because it ensures moisture and humidity do not penetrate to the deep interiors of the building which can cause cracks,paint peel offs,molds,mildew which can lead to health hazards of inhabitants. <br> To provide the best waterproofing solution we use APP waterproofing<br> APP membrane is an efficient and durable waterproofing material used on flat concrete roofs,concrete gutters,basements and retaining walls.
                   </p>
                  
                  </div>

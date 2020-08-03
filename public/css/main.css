@@ -682,6 +682,9 @@ form p{
 .proofing{
   margin-left:136px;
 }
+.WaterProofing img{
+  height: 479px;
+}
 
 .WaterProofing{
   /* width: 95%; */
@@ -716,10 +719,12 @@ form p{
 .roof-serve_info{
   padding-left: 40px;
     padding-top: 13px;
+    font-size:14px;
 }
 .roof-serve_info p{
   border-left:5px solid #00acee;
   padding-left: 8px;
+  line-height: 27px;
 }
 .roof-serve_info span{
   font-size: 33px;
