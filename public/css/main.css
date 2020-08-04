@@ -903,6 +903,12 @@ services-intro a{
   .top-nav {
     display: none;
   }
+  .WaterProofing img {
+    height:auto;
+}
+.WaterProofing{
+  padding: 0px;
+}
   body{
     overflow-x: hidden;
   }
@@ -1031,4 +1037,14 @@ width: 440px;
 }
 #not-found-info a:hover{
   text-decoration: none;
+}
+
+.product-title{
+  margin-left: 453px;
+  font-size: 33px;
+}
+.product-title-info{
+  text-align: center;
+    margin-top: 22px;
+    margin-bottom: 31px;
 }

@@ -153,7 +153,7 @@
                   <!-- end of build photo -->
                   <div>
                     <div class="cell large-6 medium-6 small-12 design_process animate-right">
-                    <h3>Our work process make <br>  your dream true</h3>
+                    <h3>Our work process makes <br>  your dream true</h3>
                     <div class="gg">
                     <div class="process_info">
                         <h5><span class="number">1</span> Architectural & structural designs</h5> <br>
@@ -204,17 +204,25 @@
                 </div>
                 <div class="cell large-6 medium-6 small-12 roof-serve_info">
                  <p>
-                 <span>W</span>e  provide the best roofing solutions for property owners in Kenya, from installation of an entire new roof or repair works such as leaked roofs or blocked gutters.  <br> Wallcare contacters work hard to provide the best services in the market. Our attention to key details of every roof needs guarantee you of a beautiful leak free roof.   <br> Our roofing charges are also pocket friendly which usually vary based on the material chosen,height and the total square footage
+                 <span>W</span>e  provide the best roofing solutions for property owners in Kenya, from installation of an entire new roof or repair works such as leaking roof or blocked gutters.  <br> Wallcare contractors work hard to provide the best services in the market. Our attention to key details of every roof needs guarantees you of a beautiful leak free roof. <br> Our roofing charges are also pocket friendly which usually vary based on the material chosen and the total square footage
                  </p>
                  <p style="margin-top:31px">
                   <span >W</span>aterproofing a building is important because it ensures moisture and humidity do not penetrate to the deep interiors of the building which can cause cracks,paint peel offs,molds,mildew which can lead to health hazards of inhabitants. <br> To provide the best waterproofing solution we use APP waterproofing<br> APP membrane is an efficient and durable waterproofing material used on flat concrete roofs,concrete gutters,basements and retaining walls.
                   </p>
                  
-                 </div>
+                 </div> 
                 
                 </div>
               </div>
                 <!-- end of roofing -->
+                <div class="container">
+                <div class="grid-x roofing-products">
+                    <div class="cell large-12 medium-12 small-12">
+                      <span class="product-title">Our Roofing products</span>
+                      <p class="product-title-info">There are currently many roofing products available in the market.Some of the considerations to take into when choosing a roofing product include the budget you have,how long you want the roof to last,and the products you prefer either natural or eco-friendly </p>
+                    </div>
+                  </div>
+                </div>
                 <div class="container">
                   <!-- <h3 class="roof-cover">Types of roof covers</h3> -->
                 <div class="grid-x types">
@@ -234,6 +242,7 @@
                   <!-- end of concrete tiles -->
     
                 </div>
+                
                 <div class="grid-x types">
                     <div class="cell large-6 medium-6 small-12 roofing-type">
                   <img src="https://www.southern-timber.co.uk/wp-content/uploads/2017/05/box_profile_barn.jpg" alt="">
