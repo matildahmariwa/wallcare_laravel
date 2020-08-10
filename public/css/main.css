@@ -955,7 +955,8 @@ width: 440px;
     padding: 10px;
   }
   .card{
-    width: 500px
+    width: 500px;
+    margin-left: -33px;
   }
   .card-section{
     font-size: 11px;
