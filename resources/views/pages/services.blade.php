@@ -266,7 +266,7 @@
                 <div class="grid-x ">
                   <div class="cell large-12 medium-12 small-12 get_quote">
               <div class="get_quote_info">
-                <span>Ready To work with us?</span> <br>
+                <span>Ready To work with us?</span> 
                 <a href="#">GET A QUOTE</a>
               </div>
               </div>
