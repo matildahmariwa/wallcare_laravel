@@ -175,7 +175,7 @@
                 <!-- end of design -->
                 <div class="container">
                 <div class="grid-x service-finishes">
-                 <div  class="cell large-12 medium-12 small-12">
+                 <div  class="cell large-12 medium-12 small-12 services-finishes-start">
                     <span class="service-head">Interior Finishes</span>
                     <p class="animate-left"> With a thorough understanding of the clients needs  we transform your interior <br> space  idea into reality.Our team of talented interior designers  is always updated  <br> with the current interior  design trends through our continous research.  A good <br> interior design has an impact on productivity  and comfortability of a person.</p>
                  </div>
