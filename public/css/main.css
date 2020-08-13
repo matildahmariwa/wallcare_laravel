@@ -896,7 +896,14 @@ services-intro a{
   }
  
 }
+
 @media only screen and (max-width: 500px) {
+  .social ul {
+  width: 100%;
+}
+.social ul li {
+  width: 23%;
+}
   .services-finishes-start{
     font-size: 13px;
   }
