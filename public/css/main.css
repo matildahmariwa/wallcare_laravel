@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  overflow:   scroll;
+  overflow:auto;
 }
 .top-nav{
   color:white;
@@ -12,12 +12,12 @@ html {
 }
 body {
   font-family: "Playfair Display", serif;
-  /* overflow-x: hidden; */
+ 
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
   background: transparent; 
-}
+} */
 
 .logo {
   height: 69px;
