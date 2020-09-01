@@ -37,7 +37,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 95%;
-  /* padding-top: 66.64%;*/
   margin: auto;
   height: 100vh;
   position: relative;
@@ -1059,4 +1058,94 @@ width: 440px;
   text-align: center;
     margin-top: 22px;
     margin-bottom: 31px;
+}
+.view{
+  color: gray;
+  background-color: rgb(255, 255, 255) !important;
+  border: 2px solid #00afef;
+  width: 184px;
+  height: 42px;
+  border-radius: 21px;
+  margin-top:1px;
+  text-transform: uppercase;
+  outline: none !important;
+
+}
+
+.about_us_intro{
+  background-image: url(https://images.pexels.com/photos/585418/pexels-photo-585418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 95%;
+  margin: auto;
+  height: 78vh;
+  position: relative;
+}
+.about_us_intro::before{
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.about_us_intro p{
+  text-align: center;
+  font-size: 37px;
+  color: white;
+  z-index: 5;
+  top: 51%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.about-company{
+  padding-top: 33px;
+}
+.two{
+  margin-top: 54px;
+    margin-left: 33px;
+}
+.one{
+  margin-top:10px;
+}
+.company-header{
+  font-weight: bold;
+    font-size: 30px;
+    color: #00afef;
+}
+.choose_us{
+  text-align: center;
+ 
+}
+.choose-info{
+  text-align: center;
+  margin-top: 29px;
+}
+.choose-info .cell{
+  padding-right: 25px;
+}
+.choose_us_header{
+  font-size: 35px;
+}
+.choose{
+  padding-top: 65px;
+  /* background-color: blue; */
+  padding-bottom: 98px;
+}
+.choose p{
+  margin-top: 16px;
+}
+.choose i{
+  font-size: 55px;
+  margin-bottom:14px;
+}
+.choose-head{
+  font-size: 20px;
+}
+#choose-container{
+  background: linear-gradient(0deg, white, #e3e7eb 80%) no-repeat;
 }
