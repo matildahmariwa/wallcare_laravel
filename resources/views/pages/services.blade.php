@@ -97,13 +97,13 @@
                                 </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                          <a class="nav-link" href="{{route('about')}}">About Us</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link"href="{{route('services')}}">Services</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="{{route('portfolio')}}">Portfolio</a>
+                              <a class="nav-link" href="{{route('projects')}}">Portfolio</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -125,7 +125,7 @@
                 <div class="grid-x build">
                   <div class="cell large-6 medium-6 small-12 about-pic animate-left"> 
                   <div class="card">
-                      <img src="images/render2.jpg" alt="house">
+                      <img src="images/design2.jpg" alt="house">
                       <div class="card-section" >
                           <div class="process-icon" style="float: left;">
                               <i class="fas fa-pencil-ruler"></i> <br>

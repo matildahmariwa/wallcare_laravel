@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\DB;
 class PagesController extends Controller
 {
     /**
@@ -27,6 +27,17 @@ class PagesController extends Controller
     {
         return view('pages.about');
     }
+    public function showProjects()
+    {
+        $project = DB::table('projects')->get();
+        $photos = DB::table('photos')->get();
+      
+        return view('pages.port',[
+            'project' => $project,
+            'photos' =>$photos
+        ]);
+    }
+    
     /**
      * Show the form for creating a new resource.
      *

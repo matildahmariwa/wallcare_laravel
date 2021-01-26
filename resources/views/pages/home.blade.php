@@ -114,7 +114,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
               <a class="nav-link" href="#contact-section">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-section">Blog</a>
+              <a class="nav-link" href="{{route('blog')}}">Blog</a>
             </li>
           </ul>
         </div>
@@ -128,7 +128,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
               <p>Simplicity is at the heart of our design,we make</br> complex things look and feel simple </p>
              <div class="welcome-btn">
                <button  onclick="window.location='{{ route("services") }}'" class="about-btn">Services</button>
-              <button onclick="window.location='{{ route("portfolio") }}'" class="work-btn">Portfolio</button></div>
+              <button onclick="window.location='{{ route("projects") }}'" class="work-btn">Portfolio</button></div>
                 
          </div>
         
@@ -167,7 +167,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
           </div>  <!-- end of serve 1 -->
 
           <div class="cell large-4 medium-4 small-12 serve2 animate-bottom-1100">
-            <img src="images/interior.jpg" alt="interior">
+            <img src="images/kijabe1.jpeg" alt="interior">
             <p class="font-weight-bold">Interior finishes</p>
              <span class="services-info">
                <p>
@@ -204,26 +204,26 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
 <div class="portfolio">
  <div class="portfolio-nav"> 
    <a class="portfolio-title">Latest Projects</a> |
-   <a href="{{route('portfolio')}}" id="all-btn">View All projects</a>  
+   <a href="{{route('projects')}}" id="all-btn">View All projects</a>  
    {{-- <a id="all-btn" href="portfolio.html">View All projects</a> --}}
  </div>
     <div class="grid-x projects">
       
-      <div class="cell large-3 medium-3 small-12 project1 item animate-bottom">
+      <div class="cell large-3 medium-3 small-12 project1  animate-bottom">
        
-      <img  class="portfolio-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fcb56546090747.58478766a38af.jpg" alt="">
+      <img  class="portfolio-image" src="images/kijabeinterior.jpeg" alt="">
    
-      <div class="bottom-left">Kijabe <br> Brew Coffee <br> Limuru</div>
+      <div class="bottom-left" style="color:black">Kijabe <br> Brew Coffee <br> Limuru</div>
       </div>
-      <div class="cell large-3 medium-3 small-12 project2 item animate-bottom-1100">
+      <div class="cell large-3 medium-3 small-12 project2  animate-bottom-1100">
     <img src="images/roofing.jpg" alt="">
     <div class="bottom-left">Afro <br> Sayari Hotel<br>Ruiru</div>`
         </div>
-        <div class="cell large-3 medium-3 small-12 project3 item animate-bottom-1500">
-           <img src="images/interior.jpg" alt="">
-           <div class="bottom-left">Kiambu</div>
+        <div class="cell large-3 medium-3 small-12 project3  animate-bottom-1500">
+           <img src="images/othayamain.jpeg" alt="">
+           <div class="bottom-left">Othaya interiors</div>
           </div>
-          <div class="cell large-3 medium-3 small-12 project4 item animate-bottom-1800">
+          <div class="cell large-3 medium-3 small-12 project4  animate-bottom-1800">
             <img src="images/school.jpg" alt="">
             <div class="bottom-left">Garden Brooke <br> school <br> Garden Estate</div>
             </div>
@@ -296,7 +296,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
               email
               </span>
               <div class="find_ino">
-                  wallcarecontractors@gmail.com
+                 info@wallcarecontractors.co.ke
                 </div>
           </div>
           <div class="find-inoo">
@@ -362,10 +362,10 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
 <div class="cell large-3 medium-3 small-12 footer_item animate-top">
    <h3>Quick links</h3>
    <ul class="quick-links">
-     <li><a href="#">About Us</a></li>
-     <li><a href="#">Our Services</a></li>
-     <li><a href="#">Portfolio</a></li>
-     <li> <a href="#">Contact Us</a></li>
+     <li><a href="{{route('about')}}">About Us</a></li>
+     <li><a href="{{route('services')}}">Our Services</a></li>
+     <li><a href="{{route('projects')}}">Portfolio</a></li>
+     <li> <a href="{{route('blog')}}">Blog</a></li>
    </ul>
   
 </div>

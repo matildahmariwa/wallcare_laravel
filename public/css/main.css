@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
   overflow:auto;
 }
+
 .top-nav{
   color:white;
   padding-top: 19px;
@@ -14,10 +15,7 @@ body {
   font-family: "Playfair Display", serif;
  
 }
-/* ::-webkit-scrollbar {
-  width: 0px;
-  background: transparent; 
-} */
+
 
 .logo {
   height: 69px;
@@ -219,6 +217,7 @@ body {
 }
 .projects cell{
 padding:10px;
+
 }
 .portfolio{
   margin-top:55px;
@@ -541,7 +540,7 @@ form p{
   width: 100%;
     height: 39%;
     object-fit: cover;
-    /* position: absolute; */
+    
 }
 .design_title{
   margin-top: -223px;
@@ -652,7 +651,7 @@ form p{
   background-color:white;
   width: 348px;
   margin-top: -443px;
-  /* margin-left: 347px; */
+  
   float: right;
   margin-right: 130px;
   height: 315px;
@@ -752,7 +751,8 @@ font-size:30px;
 .types img{
   width:500px;
 }
-.get_quote{ background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/aceaa298176157.5ed6631ad9e59.jpg);
+.get_quote{ 
+  background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/aceaa298176157.5ed6631ad9e59.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -850,9 +850,9 @@ services-intro a{
 .roof-cover{
   text-transform: uppercase;
   text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 300;
-    text-decoration: underline;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-decoration: underline;
 }
 .by{
   background-color: black;
@@ -1149,3 +1149,108 @@ width: 440px;
 #choose-container{
   background: linear-gradient(0deg, white, #e3e7eb 80%) no-repeat;
 }
+.cell-info p{
+  position:absolute;
+ color: white;
+ font-size: 40px;
+ font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.cell-info span{
+  position:absolute;
+  color: white;
+  font-weight: bold;
+  top: 30%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+
+.items{
+  position: relative;
+  text-align: center;
+  outline-offset : 10px;
+  overflow: hidden;
+}
+.items2{
+  position: relative;
+  text-align: center;
+  outline-offset : 10px;
+  overflow: hidden;
+  height: 30vh;
+  object-fit: cover;
+}
+.items:hover img{
+
+transform:scale(1.2);
+}
+.items2:hover img{
+
+  transform:scale(1.2);
+  }
+.items img{
+  transition: transform .2s ease-in;
+ 
+}
+
+.items2 img{
+
+  transition: transform .2s ease-in;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}
+.info-details-head{
+
+    font-weight: bold;
+    font-size: 40px;
+     
+}
+.info-details{
+  padding-bottom: 27px;
+}
+.project-gallery img{
+  height: 383px;
+    width: 536px;
+ 
+}
+.project-gallery div{
+  margin-bottom: 26px;
+}
+.results-head
+{
+
+  text-align: center;
+  padding: 28px 0px 49px 0px;
+  text-decoration: underline;
+  font-size:40px;
+}
+.project-head
+{
+  background-image: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin: auto;
+  height: 45vh;
+  position: relative;
+}
+.project-head h1{
+   margin: auto;
+    color: white;
+    font-size: 57px;
+}
+@media print, screen and (min-width: 64em){
+  .blog {
+      width: 30.33333% !important;
+      margin-right: 32px !important;
+      margin-bottom: 5px !important;
+  }
+  }
+  .blogview-body{
+  padding: 72px;
+  }

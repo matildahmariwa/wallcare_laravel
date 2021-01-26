@@ -14,8 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', 'PagesController@index')->name('/home');
 Route::get('/services', 'PagesController@services')->name('services');
-Route::get('/portfolio', 'PagesController@portfolio')->name('portfolio');
+
 Route::get('/about_us', 'PagesController@about')->name('about');
+Route::get('/projects', 'PagesController@showProjects')->name('projects');
+Route::get('/projects/{p}', 'ProjectsController@show')->name('project');
+
+Route::get('/blog/{id}', 'BlogsController@show')->name('blogs');
+Route::get('/blog', 'BlogsController@index')->name('blog');
+
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

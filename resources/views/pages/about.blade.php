@@ -59,13 +59,13 @@
                     </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="{{route('about')}}">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link"href="{{route('services')}}">Services</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="{{route('portfolio')}}">Portfolio</a>
+                  <a class="nav-link" href="{{route('projects')}}">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -126,7 +126,7 @@
         <div class="cell large-12 medium-12 small-12 get_quote">
     <div class="get_quote_info">
       <span>Ready To work with us?</span> 
-      <a href="#">GET A QUOTE</a>
+      <a href="{{route('/home')}}">GET A QUOTE</a>
     </div>
     </div>
       </div>

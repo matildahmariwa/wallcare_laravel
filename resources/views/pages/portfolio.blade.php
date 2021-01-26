@@ -163,13 +163,8 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
                             <div class="item-img">
                                 <img src="images/interior3.jpg" alt="image" class="img-responsive">
                                 <div class="item-img-overlay">
-                                    {{-- <div class="overlay-info full-width">
-                                        <p>Logo | Branding</p>
-                                        <h3>Web Design</h3>
-                                        <a href="p1.jpg" class="popimg">
-                                            <span class="icon"><i class="fa fa-search-plus"></i></span>
-                                        </a>
-                                    </div> --}}
+                                   
+                                   
                                 </div>
                             </div>
                         </div>
@@ -577,8 +572,7 @@ src="https://kit.fontawesome.com/7f19f7dd61.js"></script>
         <script src="isotope.pkgd.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <script>
-    
-    
+
    $(function () {
  
           
